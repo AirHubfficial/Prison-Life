@@ -1,3 +1,7 @@
+if game.PlaceId = 155615604 then
+
+game:GetService("Players").LocalPlayer:Kick("Error! Game Not Supported!")
+
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/508droid/AikaV3rm-UI-Lib/main/Lib.lua')))()
 
 local player = game.Players.LocalPlayer
